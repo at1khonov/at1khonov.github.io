@@ -48,7 +48,58 @@ canvas {
 }
 
 .link1:hover {
-  color: #ffcc00;
+  color: #0077FF;
+}
+
+.link2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.8vw;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.link2:hover {
+  color: #0088cc;
+}
+
+.link3 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.8vw;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.link3:hover {
+  background: linear-gradient(#405DE6, #5851DB,  #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #FCAF45;
+}
+
+.link4 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.8vw;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.link4:hover {
+  color: #1B1F23;
+}
+
+.link5 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.8vw;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.link5:hover {
+  color: #2a475e;
 }
 
 @media screen and (max-width: 785px) {
@@ -71,6 +122,18 @@ canvas {
     font-size: 2.5vw;
   }
   .link1 {
+    font-size: 5vw;
+  }
+  .link2 {
+    font-size: 5vw;
+  }
+  .link3 {
+    font-size: 5vw;
+  }
+  .link4 {
+    font-size: 5vw;
+  }
+  .link5 {
     font-size: 5vw;
   }
 }
